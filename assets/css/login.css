@@ -1,0 +1,49 @@
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+.heading{
+    margin-left: 200px;
+}
+
+.loginInfo{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 30px;
+}
+
+label{
+    font-size: 1.2rem;
+    font-weight: 550;
+}
+
+input{
+    border: 2px solid black;
+    border-radius: 7px;
+    /* margin-left: 20px; */
+    padding: 7px;
+    width: 210px;
+}
+
+button{
+    border: 2px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: 550;
+    padding: 5px;
+    width: 120px;
+    margin: 20px 0 0 315px;
+}
+
+button:hover{
+    background-color: aqua;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}

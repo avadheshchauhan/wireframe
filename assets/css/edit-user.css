@@ -1,0 +1,84 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.navigation ul {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background-color: gray;
+    margin: 0 0 0 2px;
+    border-radius: 6px;
+    border: 2px solid black;
+}
+
+.navigation ul li {
+    list-style: none;
+    padding: 10px 10px;
+    border-right: 2px solid black;
+}
+
+.navigation ul li:hover{
+    cursor: pointer;
+    background-color: white;
+}
+
+.navigation ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.25rem;
+}
+
+.items{
+    text-align: center;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+.heading{
+    margin-left: 200px;
+}
+
+.editInfo{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 30px 0 10px 0;
+}
+
+label{
+    font-size: 1.2rem;
+    font-weight: 550;
+}
+
+input{
+    border: 2px solid black;
+    border-radius: 7px;
+    /* margin-left: 20px; */
+    padding: 7px;
+    width: 210px;
+}
+
+button{
+    border: 2px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: 550;
+    padding: 5px;
+    width: 120px;
+    margin: 20px 0 0 285px;
+}
+
+button:hover{
+    background-color: aqua;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
